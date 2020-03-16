@@ -4,12 +4,12 @@ The purpose of this script is to summarize news sources for active traders.
 ####Word Embeddings 
 
 
-Please  download the word embeddings from http://projects.verlet.io/marketnews
+Please  download the word embeddings from http://jyrose.verlet.io/market_news.html
 
 OR 
 
 ```
-curl -O http://projects.verlet.io/word_embeddings
+curl -O http://jyrose.verlet.io/jyrose/StockNews/WordEmbeddings.zip
 ```
 #### Chrome Driver
 ```
@@ -86,10 +86,10 @@ python3 GUI.py
 Take input of article text. Can easily be used in any other script 
 
 ```
-from SimilarityComparison import main as compare_text
+from SimilarityComparison import rank
 
 text = "Some Long Text ... LOOOOOOOONG"
-ranked_setences = compare_text(text, keep_score=True)
+ranked_setences = rank(text, keep_score=True)
 ```
 
  
