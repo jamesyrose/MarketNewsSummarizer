@@ -1,16 +1,12 @@
 The purpose of this script is to summarize news sources for active traders.
 
 ### Dependencies 
-####Word Embeddings 
-
-
-Please  download the word embeddings from http://jyrose.verlet.io/market_news.html
-
-OR 
+#### Word Embeddings 
 
 ```
-curl -O http://jyrose.verlet.io/jyrose/StockNews/WordEmbeddings.zip
+curl  http://vectors.nlpl.eu/repository/20/1.zip -o 'WordEmbeddings.zip'
 ```
+
 #### Chrome Driver
 ```
 wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
